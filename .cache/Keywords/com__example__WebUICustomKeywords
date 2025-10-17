@@ -1,0 +1,75 @@
+{
+  "keywordFileContentHash": "66648FF2B8205C3703CFA7EF197A3F55",
+  "keywordClasses": [
+    {
+      "name": "com.example.WebUICustomKeywords",
+      "keywordMethods": [
+        {
+          "name": "getHtmlTableRows",
+          "parameters": [
+            {
+              "name": "table",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "com.kms.katalon.core.testobject.TestObject",
+                "unresolvedClassName": "TestObject",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "outerTagName",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\n\t * Get all rows of HTML table\n\t * @param table Katalon test object represent for HTML table\n\t * @param outerTagName outer tag name of TR tag, usually is TBODY\n\t * @return All rows inside HTML table \n\t */"
+        },
+        {
+          "name": "getHtmlTableColumns",
+          "parameters": [
+            {
+              "name": "row",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "org.openqa.selenium.WebElement",
+                "unresolvedClassName": "WebElement",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "tagName",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\n\t * Get all cells of HTML table row\n\t * @param row a WebElement instance represent for HTML table row \n\t * @param tagName HTML column tag name, usually is TD/TH\n\t * @return All cells inside HTML table row \n\t */"
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}
